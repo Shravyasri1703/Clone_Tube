@@ -7,7 +7,9 @@ const options = {
   url: BASE_URL,
   params: {
     part: 'snippet',
+    maxResults : 50,
     videoId: 'M7FIvfx5J10'
+    
   },
   headers: {
     'X-RapidAPI-Key': 'e44e8aeaa0msh842b2d3eea8d8fdp166246jsn64003c88892a',
